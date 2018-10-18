@@ -4,26 +4,40 @@
   "description": "My own website",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode=development --inline --hot --colors",
-    "prod": "webpack --mode=production --config webpack.config.js"
+    "dev": "webpack --mode=development --config webpack.config.js",
+    "prod": "webpack --mode=production --progress --config webpack.config.js",
+    "watch": "webpack-dev-server --mode=development --inline --hot --colors"
   },
-  "keywords": [],
+  "keywords": [
+    "portFolio",
+    "freelancer",
+    "web devlopment",
+    "software development",
+    "Full-Stack",
+    "React",
+    "JS"
+  ],
   "author": {
     "name": "Níkolas Vargas",
     "email": "nikolas@nikolas.pw"
   },
   "license": "MIT License",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
-    "bootstrap": "^4.1.3",
     "css-loader": "^0.28.0",
     "font-awesome": "^4.7.0",
+    "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
