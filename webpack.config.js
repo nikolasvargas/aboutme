@@ -1,11 +1,11 @@
-const webpack              = require('webpack');
-const path                 = require('path');
+const webpack = require('webpack');
+const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HtmlWebpackPlugin    = require('html-webpack-plugin');
-const UglifyJSPlugin       = require('uglifyjs-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = (env, argv) => {
-    let plugins = [ new MiniCssExtractPlugin({ filename: 'bundle.css' }) ]
+    let plugins = [new MiniCssExtractPlugin({ filename: 'bundle.css' })]
 
     if (argv.mode === 'production') {
         plugins.push(
@@ -55,17 +55,17 @@ module.exports = (env, argv) => {
                     ]
                 },
                 {
-                    test: /\.(woff|woff2|ttf|eot|svg*.*)$/,
+                    test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
                     use: {
-                      loader: 'file-loader',
-                      options: {}
+                        loader: 'file-loader',
+                        options: {}
                     }
                 }
             ]
         },
         plugins,
         resolve: {
-            extensions: [ '.js', '.jsx' ],
+            extensions: ['.js', '.jsx'],
             alias: {
                 modules: path.resolve(__dirname, 'node_modules')
             }
