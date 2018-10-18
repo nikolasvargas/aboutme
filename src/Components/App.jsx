@@ -1,24 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'modules/bulma/css/bulma.min.css';
 import 'modules/font-awesome/css/font-awesome.min.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-        <section className="hero is-fullheight has-background-black">
-          <div className="hero-body">
-            <div className="container">
-            </div>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
-          </div>
-        </section>
+export default props => (
+  <div>
+    <section className="hero is-info is-fullheight">
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <p className="title">Níkolas Vargas</p>
+          <p className="subtitle"><strong>Software Developer</strong></p>
+        </div>
       </div>
-    )
-  }
-}
-
-export default App;
+    </section>
+  </div>
+)
