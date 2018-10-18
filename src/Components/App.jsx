@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faLinkedin, faGithub, faReact, faNodeJs, faNode, faPython } from '@fortawesome/fontawesome-free-brands';
+import { faTwitter, faLinkedin, faGithub } from '@fortawesome/fontawesome-free-brands';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import 'modules/bulma/css/bulma.min.css';
-import '../styles/app.css';
 
-export default props => (
+
+export default () => (
   <div>
     <section className="hero is-white is-fullheight ">
       <div className="hero-body has-text-centered">
