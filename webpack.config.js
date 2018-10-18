@@ -54,7 +54,7 @@ module.exports = (env, argv) => {
           ]
         },
         {
-          test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+          test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg|gif)(\?.*$|$)/,
           use: {
             loader: 'file-loader',
             options: {}
