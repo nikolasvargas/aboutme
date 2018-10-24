@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin, faGithub } from '@fortawesome/fontawesome-free-brands';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-
 export default () => (
   <div>
     <section className="hero is-white is-fullheight ">
