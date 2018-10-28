@@ -43,7 +43,7 @@ export default () => (
                 </a>
               </li>
               <li>
-                <a href="mailto:nikolas@nikolas.pw" className="button is-large">
+                <a href="mailto:vargasnikolass@gmail.com" className="button is-large">
                   <span className="icon">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>
