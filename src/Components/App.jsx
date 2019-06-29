@@ -8,10 +8,10 @@ export default () => (
     <section className="hero is-white is-fullheight ">
       <div className="hero-body has-text-centered">
         <div className="container">
-          <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Full-Stack Developer</h1>
-          <h2 className="subtitle is-size-4-desktop">I build mobile apps, software and websites</h2>
+          <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Software Engineer</h1>
+          <h2 className="subtitle is-size-4-desktop">Working hard to solve complex problems and build useful applications</h2>
           <img className="avatar" width="220px" src={require('../images/welder.svg')} />
-          <h2 className="subtitle is-size-4-desktop">Porto Alegre, RS | Brasil</h2>
+          <h2 className="subtitle is-size-4-desktop">Porto Alegre | Brazil</h2>
         </div>
       </div>
       <div className="hero-foot">

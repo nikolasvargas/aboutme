@@ -11,15 +11,14 @@
   "keywords": [
     "portFolio",
     "freelancer",
-    "web devlopment",
+    "software engineering",
+    "data engineering",
     "software development",
-    "Full-Stack",
-    "React",
-    "JS"
+    "Full-Stack"
   ],
   "author": {
     "name": "Níkolas Vargas",
-    "email": "nikolas@nikolas.pw"
+    "email": "vargasnikolass@gmail.com"
   },
   "license": "MIT License",
   "dependencies": {
